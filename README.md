@@ -6,16 +6,9 @@
 - Criar os componentes visuais usando [Web Components](https://developers.google.com/web/fundamentals/web-components/customelements)
 - Não utilizar nenhuma biblioteca além daquelas que já estão instaladas (seja de CSS ou JS)
 
-## Passo 1
-
-- Instalar as dependências
-- Escrever testes unitários significativos para o aplicativo (Jest)
-- Escrever as classes para passar nos testes
-
-## Passo 2
+## Passos
 
 - Criar a interface baseada no [protótipo do Figma](https://www.figma.com/file/fJ43ch89xzrAcCl5aN16JT/Bookmark-Manager)
-- Fazer a aplicação responsiva utilizando as classes criadas no passo anterior
 - Utilizar o endpoint `/api/extract` para obter os metadados das URLs
 
 ## Sugestões
