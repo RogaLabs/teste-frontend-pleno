@@ -18,7 +18,6 @@
 
 ## O que será avaliado
 
-- Todos os testes cumpridos
 - Uso de Web Components
 - Fidelidade ao protótipo
 - Responsividade
