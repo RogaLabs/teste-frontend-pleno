@@ -1,13 +1,14 @@
 {
   "name": "teste-frontend-junior",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "node ./scripts/build.js minify=true",
-    "dev": "node ./scripts/build.js watch=true",
+    "build": "bin/build.js minify=true",
+    "dev": "bin/build.js watch=true",
     "format": "prettier --write src",
-    "serve:api": "node ./scripts/server.js",
-    "serve:web": "live-server --port=3000 build --middleware=../../scripts/api.js",
-    "start": "run-p dev serve:web",
+    "serve:api": "bin/api.js",
+    "serve:web": "bin/web.js",
+    "start": "run-p dev serve:*",
     "test": "jest"
   },
   "devDependencies": {
@@ -16,10 +17,13 @@
     "esbuild": "^0.14.10",
     "esbuild-copy-static-files": "^0.1.0",
     "esbuild-style-plugin": "^1.1.2",
+    "http-proxy-middleware": "^2.0.6",
     "jest": "^27.4.5",
-    "live-server": "^1.2.1",
+    "json-server": "^0.17.0",
     "npm-run-all": "^4.1.5",
+    "polka": "^0.5.2",
     "prettier": "^2.5.1",
+    "sirv": "^2.0.2",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
   }

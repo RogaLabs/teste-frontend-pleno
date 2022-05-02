@@ -2,6 +2,23 @@
   padding: 1rem;
 }
 
-.info {
+.app h1 {
+  text-align: center;
+}
+
+.app__meta,
+.app__data {
+  background: white;
+  border: 1px solid #ccc;
   overflow: auto;
+  padding: 0.5rem;
+}
+
+.app__form {
+  align-items: center;
+  display: flex;
+}
+
+.app__form button {
+  margin-left: 1rem;
 }

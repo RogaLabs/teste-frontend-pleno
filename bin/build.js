@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const esbuild = require('esbuild');
 const copy = require('esbuild-copy-static-files');
 const style = require('esbuild-style-plugin');
